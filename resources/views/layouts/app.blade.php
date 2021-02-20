@@ -1,0 +1,6 @@
+@include('home.section.header')
+@include('home.section.menu')
+@include('home.section.cart')
+@yield('content')
+@include('home.section.footer')
+@include('home.section.script')
